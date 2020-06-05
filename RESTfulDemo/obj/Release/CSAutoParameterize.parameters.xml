@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DBModel-Web.config Connection String" description="DBModel Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:demorestfulapi.database.windows.net,1433;Initial Catalog=Demo_RESTful;Persist Security Info=False;User ID=hieu;Password=;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\FPT\\SE_CN7\\New\ folder\\New\ folder\\RESTfulDemo\\RESTfulDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DBModel']/@connectionString" />
+  </parameter>
+  <parameter name="Demo_RESTfulEntities-Web.config Connection String" description="Demo_RESTfulEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=demorestfulapi.database.windows.net;initial catalog=Demo_RESTful;persist security info=True;user id=hieu;password=Superbang1402;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\FPT\\SE_CN7\\New\ folder\\New\ folder\\RESTfulDemo\\RESTfulDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Demo_RESTfulEntities']/@connectionString" />
+  </parameter>
+</parameters>
